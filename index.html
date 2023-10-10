@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação De Senhas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validarSenhas.js" defer></script>
+    <link href="https://fonts.cdnfonts.com/css/plack-the-hanet" rel="stylesheet">
+                           
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <h1 class="title">Escolha uma senha</h1>
+            <form>
+                <label for="">Senha:</label><br>
+                <input type="text" name="senha" id="senha" required><br>
+                <label for="">Confirmação:</label><br>
+                <input type="text" name="confirmacao" id="confirmacao" required> <br><br>
+                <button type="button" onclick="vlaidarSenha()">Criar</button>
+            </form>
+            <div id="msg">
+    
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
