@@ -27,14 +27,14 @@ body{
     max-width: 550px;
     height: 650px;
     backdrop-filter: blur(20px);
-    border: 2px solid rgba(255, 255, 255, 0.342);
+    border: 2px solid rgba(255, 255, 255, 0.178);
     border-radius: 20px;
     box-shadow: 2px 2px 40px rgba(255, 255, 255, 0.247);
     
   
 }
 h1{
-    font-size: 30pt;
+    font-size: 24pt;
     text-align: center;
     margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -47,13 +47,13 @@ form{
     flex-direction: column;
 }
 label{
-    font-size: 20pt;
+    font-size: 18pt;
     margin-top: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
     margin-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    
                                                 
 
 }
@@ -61,6 +61,10 @@ input{
     width: 300px;
     height: 30px;
     margin-left: 120px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14pt;
+    padding-left: 10px;
 }
 button{
     width: 200px;
@@ -70,11 +74,12 @@ button{
     border-radius: 20px;
     margin-bottom: 20px;
     border: none;
-    background-color: rgb(196, 116, 42);
+    background-color:#CB904D;
     box-shadow: 2px 2px 20px rgb(55, 80, 62);
-    color: rgb(55, 80, 62);
+    color: rgb(0, 0, 0);
     &:hover{
         transform: scale(1.2);
+        color: white;
     
     }
 }
@@ -89,7 +94,7 @@ button{
     border-radius: 20px;
     font-size: 20pt;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 20px;
     background-color: rgba(255, 255, 255, 0.116);
 }
  
