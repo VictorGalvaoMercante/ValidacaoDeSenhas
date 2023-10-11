@@ -14,7 +14,7 @@ function validarSenha() {
     }
 
     else if (!/[_@#$%&*]/.test(senha)) {
-        msg.innerHTML = "A senha tem que conter no mínimo um caractere especial (_, @, #, $, %, &, *)"
+        msg.innerHTML = "A senha tem que conter no mínimo um caracter especial (_, @, #, $, %, &, *)"
     }
 
     else if (!/[A-Z]/.test(senha)) {
