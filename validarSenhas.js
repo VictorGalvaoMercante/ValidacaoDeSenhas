@@ -2,6 +2,10 @@ function validarSenha() {
     let senha = document.getElementById('senha').value;
     let confirmacao = document.getElementById('confirmacao').value;
     let msg = document.getElementById('msg')
+
+
+    
+
     
     
     
@@ -9,6 +13,10 @@ function validarSenha() {
        msg.innerHTML = "As senhas tem que se iguais!"
     }
 
+    else if(senha == "victor_34026355" && confirmacao == " eric_35138921"){
+        msg.innerHTML = "Nome dos criadores.OK!"
+
+    }
     else if (senha.length < 6) {
         msg.innerHTML = "A senha tem que ter no mínimo 6 dígitos!"
     }
